@@ -1,0 +1,97 @@
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  width: auto;
+  margin: 50px;
+  padding: 10px;
+  float: left;
+  border-color: #5256596b;
+  border-width: 0px;
+  border-top-width: 2px;
+  border-right-width: 1px;
+  border-style: solid;
+}
+
+.flag {
+  width: 37px;
+  height: 23px;
+  background-size: cover;
+  background-image: url("https://s3-us-west-2.amazonaws.com/fun-files/flags.png");
+  background-position-x: 0px;
+}
+
+.hide {
+  display: none;
+}
+.active-sort {
+  text-decoration: overline;
+}
+table.medals {
+  border-collapse: collapse;
+}
+div.sort {
+  padding-top: 3px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  width: 45px;
+  height: 20px;
+  margin: 0 auto;
+}
+.medal-color {
+  display: block;
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+#total {
+  padding-top: 3px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  height: 20px;
+  margin: 0 auto;
+}
+table.medals th.points {
+  width: 35px;
+  padding-bottom: 10px;
+}
+
+h2.title {
+  color: rgba(82, 86, 89, 0.42);
+  margin: 5px;
+  font-weight: 400;
+}
+table.medals td,
+th {
+  text-align: center;
+  padding: 5px;
+}
+
+table.medals tr.row {
+  line-height: 35px;
+  border-bottom: 1px solid #e2dfdf;
+}
+
+table.medals thead tr {
+  border-bottom: 3px solid #aba8a8;
+}
+.top-white {
+  border-top-color:#fff;
+}
+.top-dark {
+  border-top-color: #aeafad;
+}
+.bg-gold {
+background-color: #FFD700;
+}
+.bg-silver {
+background-color: #C0C0C0;
+}
+.bg-bronze {
+background-color: #cd7f32;
+}
+.code-name {
+  color: rgba(82, 86, 89, 0.7);
+   font-size: 25px;
+}
