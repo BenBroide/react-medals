@@ -10,8 +10,15 @@ Serve static build:
 
 **serve -s build**
 
-The GET call is via axios, fetch is not considered best practice fetch API in live projects. Although for this task requirements fetch would have worked just fine. 
 
-The AWS URL returns a CORS erros on my mac, but not in a my PC. I places a URL to the JSON on a diffrent AWS bucket with correct headrs. 
+
+
+
+
+
+The GET call is via axios, the fetch is not considered best practice in production. Although, for these task requirements, fetch would have worked just fine.
+
+The AWS URL returns a CORS errors on my mac, but not my PC. I placed a URL to the JSON on a different AWS bucket with the correct headers.
+
 
 Boilerplate: [create react app](https://github.com/facebook/create-react-app)
